@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ECExercise.iml" filepath="$PROJECT_DIR$/ECExercise.iml" />
+      <module fileurl="file://D:\work\imooc\ECAPP\myecapp.git\ECExercise.iml" filepath="D:\work\imooc\ECAPP\myecapp.git\ECExercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-annotations/lib-annotations.iml" filepath="$PROJECT_DIR$/lib-annotations/lib-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-compiler/lib-compiler.iml" filepath="$PROJECT_DIR$/lib-compiler/lib-compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-core/lib-core.iml" filepath="$PROJECT_DIR$/lib-core/lib-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-ec/lib-ec.iml" filepath="$PROJECT_DIR$/lib-ec/lib-ec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-ui/lib-ui.iml" filepath="$PROJECT_DIR$/lib-ui/lib-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myecapp.git.iml" filepath="$PROJECT_DIR$/myecapp.git.iml" />
     </modules>
   </component>
 </project>

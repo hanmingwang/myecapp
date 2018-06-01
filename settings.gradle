@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':lib-annotations', ':lib-compiler', ':lib-ui', ':lib-ec', ':lib-core'
