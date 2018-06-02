@@ -3,6 +3,7 @@ package com.hmw.ecexercise;
 import android.app.Application;
 
 import com.hmw.lib.core.app.Latte;
+import com.hmw.lib.core.interceptors.DebugInterceptor;
 import com.hmw.lib.ec.icon.FontEcModule;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
 
@@ -20,7 +21,7 @@ public class ExampleApp extends Application{
                 .withIcon(new FontEcModule())
                 .withLoaderDelayed(1000)
                 .withApiHost("http://192.168.31.80:20002/api/")
-//                .withInterceptor(new DebugInterceptor("test", R.raw.test))
+                .withInterceptor(new DebugInterceptor("test", R.raw.test))
                 .withWeChatAppId("你的微信AppKey")
                 .withWeChatAppSecret("你的微信AppSecret")
                 .withJavascriptInterface("latte")
