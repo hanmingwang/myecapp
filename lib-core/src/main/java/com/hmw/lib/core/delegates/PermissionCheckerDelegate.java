@@ -29,7 +29,7 @@ public abstract class PermissionCheckerDelegate extends BaseDelegate {
 //    public void startScanWithCheck(BaseDelegate delegate) {
 //        PermissionCheckerDelegatePermissionsDispatcher.startScanWithPermissionCheck(this, delegate);
 //    }
-//
+
 //    @OnPermissionDenied(Manifest.permission.CAMERA)
 //    void onCameraDenied() {
 //        Toast.makeText(getContext(), "不允许拍照", Toast.LENGTH_LONG).show();
@@ -39,7 +39,7 @@ public abstract class PermissionCheckerDelegate extends BaseDelegate {
 //    void onCameraNever() {
 //        Toast.makeText(getContext(), "永久拒绝权限", Toast.LENGTH_LONG).show();
 //    }
-//
+
 //    @OnShowRationale(Manifest.permission.CAMERA)
 //    void onCameraRationale(PermissionRequest request) {
 //        showRationaleDialog(request);

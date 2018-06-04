@@ -8,6 +8,7 @@ import android.widget.Toast;
 import com.hmw.lib.core.activities.ProxyActivity;
 import com.hmw.lib.core.app.Latte;
 import com.hmw.lib.core.delegates.LatteDelegate;
+import com.hmw.lib.ec.main.EcBottomDelegate;
 import com.hmw.lib.ec.sign.ISignListener;
 import com.hmw.lib.ec.sign.SignInDelegate;
 import com.hmw.lib.ui.launcher.ILauncherListener;
@@ -45,7 +46,7 @@ public class ExampleActivity extends ProxyActivity implements
 
     @Override
     public LatteDelegate setRootDelegate() {
-        return null;
+        return new EcBottomDelegate();
     }
 
     @Override
@@ -62,7 +63,8 @@ public class ExampleActivity extends ProxyActivity implements
     public void onLauncherFinish(OnLauncherFinishTag tag) {
         switch (tag) {
             case SIGNED:
-                Toast.makeText(this, "启动结束，用户登录了", Toast.LENGTH_LONG).show();
+//                Toast.makeText(this, "启动结束，用户登录了", Toast.LENGTH_LONG).show();
+                getSupportDelegate().startWithPop(new EcBottomDelegate());
                 break;
             case NOT_SIGNED:
 //                Toast.makeText(this, "启动结束，用户没登录", Toast.LENGTH_LONG).show();

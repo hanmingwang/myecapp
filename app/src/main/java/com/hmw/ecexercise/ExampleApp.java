@@ -31,5 +31,6 @@ public class ExampleApp extends Application{
                 .withWebHost("https://www.baidu.com/")
 //                .withInterceptor(new AddCookieInterceptor())
                 .configure();
+
     }
 }
